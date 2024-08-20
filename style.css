@@ -1,0 +1,21 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.card {
+    border-radius: 10px;
+}
+
+.list-group-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list-group-item .delete-btn {
+    background-color: transparent;
+    border: none;
+    color: #dc3545;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
